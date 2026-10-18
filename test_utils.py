@@ -5,7 +5,7 @@ from utils import square, is_even, cube
 class TestUtils(unittest.TestCase):
 
     def test_square(self):
-        self.assertEqual(square(7), 50)
+        self.assertEqual(square(7), 49)
 
     def test_square_negative(self):
         self.assertEqual(square(-3), 9)
