@@ -8,6 +8,11 @@ def is_even(n):
     return n % 2 == 0
 
 
+def cube(n):
+    """Return the cube of a number."""
+    return n * n * n
+
+
 if __name__ == "__main__":
     print("CI Demo")
     print("Square of 7:", square(7))
